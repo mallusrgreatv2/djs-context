@@ -1,5 +1,5 @@
 {
-  "name": "@mallusrgreat/djs-context",
+  "name": "djs-context",
   "version": "1.0.0",
   "main": "lib/context.js",
   "author": "mallusrgreatv2 <mallusrgreat@duck.com>",
