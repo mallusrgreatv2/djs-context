@@ -1,0 +1,14 @@
+{
+  "name": "@mallusrgreat/djs-context",
+  "version": "1.0.0",
+  "main": "lib/context.js",
+  "author": "mallusrgreatv2 <mallusrgreat@duck.com>",
+  "license": "MIT",
+  "types": "types.d.ts",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
