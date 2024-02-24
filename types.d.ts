@@ -39,7 +39,7 @@ import {
   User,
 } from "discord.js";
 
-declare module "@mallusrgreat/djs-context" {
+declare module "djs-context" {
   declare class Context {
     /**
      * @type {ChatInputCommandInteraction | Message}
