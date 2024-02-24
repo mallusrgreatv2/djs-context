@@ -1,6 +1,6 @@
 {
   "name": "@mallusrgreat/djs-context",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "main": "lib/context.js",
   "author": "mallusrgreatv2 <mallusrgreat@duck.com>",
   "license": "MIT",
