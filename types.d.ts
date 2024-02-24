@@ -67,7 +67,7 @@ declare module "@mallusrgreat/djs-context" {
     /**
      * Set of permissions the application or bot has within the channel the interaction was sent from
      */
-    get appPermissions(): Readonly<PermissionsBitField>;
+    appPermissions: Readonly<PermissionsBitField>;
     /**
      * The channel this interaction was sent in
      */
@@ -193,7 +193,7 @@ declare module "@mallusrgreat/djs-context" {
     /**
      * The content of the message or the name of the command + options of the interaction. This property requires the GatewayIntentBits.MessageContent privileged intent in a guild for messages that do not mention the client.
      */
-    get content(): string;
+    content: string;
     /**
      * Whether the message is crosspostable by the client user
      */
@@ -230,7 +230,7 @@ declare module "@mallusrgreat/djs-context" {
     /**
      * Partial data of the interaction that this message is a reply to
      */
-    get interaction(): MessageInteraction?;
+    interaction: MessageInteraction?;
     /**
      * All valid mentions that the message contains
      */
@@ -291,7 +291,7 @@ declare module "@mallusrgreat/djs-context" {
     /**
      * A collection of attachments in the message or interaction - e.g. Pictures - mapped by their ids. This property requires the GatewayIntentBits.MessageContent privileged intent in a guild for messages that do not mention the client.
      */
-    get attachments(): Collection<string, Attachment>;
+    attachments: Collection<string, Attachment>;
     /**
      * Defers the reply if the interaction is of type chat input command.
      * @param interactionDeferReplyOptions The options for the interaction defer
@@ -318,6 +318,10 @@ declare module "@mallusrgreat/djs-context" {
     /**
      * Whether this interaction or message is from a cached guild
      */
-    get inCachedGuild(): boolean;
+    inCachedGuild: boolean;
+    /**
+     * Whether this interaction or message is from a cached guild
+     */
+    inGuild: boolean;
   }
 }
